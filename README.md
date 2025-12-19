@@ -7,7 +7,8 @@ This repository contains SQL solutions for the Enpal case study analyzing lead c
 
 ## Dataset
 - **Database:** enpal_sql_challenge
-- **Tables:** leads, sales_funnel
+- **Total number of lead:** 57906
+- **Total number of lead with PV System Sold:** 5480 (10.56%)
 - **Date Range:** January 16 - October 28, 2024
 
 ## Assumption on Data Quality :
