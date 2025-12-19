@@ -14,7 +14,7 @@ This repository contains SQL solutions for the BI case study analyzing lead conv
 ## Assumption on Data Quality :
 3% of PV System Sold records have NULL case_closed_successful_date values. 
 These were replaced with case_opened_date, which is valid since 64% of sales close on the same day they open.
-**Impact:** This ensures all 5,323 successful conversions are counted in the analysis rather than excluding 3% of valid sales due to missing date values.
+**Impact:** This ensures all 5480 successful conversions are counted in the analysis rather than excluding 3% of valid sales due to missing date values.
 
 ## Questions & Solutions
 
