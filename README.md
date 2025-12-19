@@ -1,14 +1,12 @@
 # Enpal SQL Case Study
 
-**Candidate:** [Your Name]  
-**Date:** December 19, 2024  
-**Position:** Business Intelligence Analyst
+**Candidate:** Krishna Narwade  
 
 ## Overview
 This repository contains SQL solutions for the Enpal case study analyzing lead conversion funnels and marketing channel performance.
 
 ## Dataset
-- **Database:** enpal_sql_challenge.main
+- **Database:** enpal_sql_challenge
 - **Tables:** leads, sales_funnel
 - **Date Range:** January 16 - October 28, 2024
 
