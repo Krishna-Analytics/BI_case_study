@@ -1,9 +1,9 @@
-# Enpal SQL Case Study
+# BI Case Study
 
 **Candidate:** Krishna Narwade  
 
 ## Overview
-This repository contains SQL solutions for the Enpal case study analyzing lead conversion funnels and marketing channel performance.
+This repository contains SQL solutions for the BI case study analyzing lead conversion funnels and marketing channel performance.
 
 ## Dataset
 - **Database:** enpal_sql_challenge
