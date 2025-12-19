@@ -34,6 +34,7 @@ These were replaced with case_opened_date, which is valid since 64% of sales clo
 **Objective:** Analyze Lead → PV System Sold conversion rate and time to conversion
 
 **Key Findings:**
+
 ***Conversion Rate Performance:***
 Channel A demonstrates the highest conversion efficiency, with 10.2% of leads successfully converting to PV System Sold. 
 This represents a 1.5 percentage point advantage over Channel B (9.7%) and 1.46 percentage points over Channel C (8.74%)
@@ -70,10 +71,15 @@ The difference between the fastest and slowest channel is only 2.36 days, repres
 | **Channel C** | 2024-07-03 | 29 | 27 | 93.10 | Bottom 3 | 175 | 2 |
 | **Channel C** | 2024-07-06 | 19 | 17 | 89.47 | Bottom 3 | 176 | 1 |
 
-### Key Observations
+**Key Findings:**
 
 - All three channels achieved 100% conversion rates on their best-performing days
 - Channel B shows the widest performance gap (100% top vs 77.78% bottom)
 - Early January and early July dates consistently appear in bottom 3 across all channels
 - Top-performing days clustered in April-June period with high lead volumes
 
+### Question 4: Cohort Analysis by Marketing Channel
+**File:** [question_4_cohort_analysis.sql](https://github.com/Krishna-Analytics/BI_case_study/blob/main/question_4_cohort_analysis.sql)  
+**Objective:** Prepare dataset for cohort development analysis and live presentation
+
+**Output:** Lead-level dataset with funnel progression, time-to-conversion metrics, and maturity status for Power BI visualization
