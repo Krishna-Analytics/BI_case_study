@@ -19,7 +19,7 @@ These were replaced with case_opened_date, which is valid since 64% of sales clo
 ## Questions & Solutions
 
 ### Question 1: Data Range Analysis
-**File:** `question_1_data_range.sql`  
+**File:** [`question_1_data_range.sql`](https://github.com/Krishna-Analytics/BI_case_study/blob/main/question_1_data_range.sql)
 **Objective:** Identify earliest lead_created_date and latest case_closed_successful_date
 
 **Key Findings:**
@@ -28,7 +28,7 @@ These were replaced with case_opened_date, which is valid since 64% of sales clo
 - Data span: ~9.5 months
 
 ### Question 2: Best-Performing Marketing Channel
-**File:** `question_2_best_channel.sql`  
+**File:** [`question_2_best_channel.sql`](https://github.com/Krishna-Analytics/BI_case_study/blob/main/question_2_best_channel.sql)
 **Objective:** Analyze Lead → PV System Sold conversion rate and time to conversion
 
 **Key Findings:**
@@ -41,7 +41,7 @@ Channel C achieves the fastest lead-to-sale cycle, averaging 43.78 days to conve
 The difference between the fastest and slowest channel is only 2.36 days, representing a 5.4% variance in conversion speed.
 
 ### Question 3: Top/Bottom Days by Channel
-**File:** `question_3_top_bottom_days.sql`  
+**File:** [`question_3_top_bottom_days.sql`](https://github.com/Krishna-Analytics/BI_case_study/blob/main/question_3_top_bottom_days.sql)  
 **Objective:** Find top 3 and bottom 3 days per marketing channel for Lead → Sales Call 1 conversion
 
 ### Lead → Sales Call 1 Conversion Rate Performance
