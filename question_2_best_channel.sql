@@ -24,7 +24,7 @@ SELECT
 	l.marketing_channel, 
 	COUNT(DISTINCT l.lead_id) as total_lead_count,
 	COUNT(DISTINCT s.lead_id) as total_converted_lead,
-	ROUND((COUNT(s.lead_id) / COUNT(l.lead_id))*100,2) as conversion_rate_pct,
+	ROUND((COUNT(DISTINCT s.lead_id) / COUNT(DISTINCT l.lead_id))*100,2) as conversion_rate_pct,
 	ROUND(AVG(days_diff),2) as avg_days_to_conversion
 FROM enpal_sql_challenge.main.leads l
 LEFT JOIN sucessful_lead s ON l.lead_id = s.lead_id
@@ -38,4 +38,5 @@ SELECT
 	avg_days_to_conversion,
 	ROW_NUMBER() OVER (ORDER BY conversion_rate_pct DESC) AS conversion_rate_rank,
     ROW_NUMBER() OVER (ORDER BY avg_days_to_conversion ASC) AS conversion_speed_rank
+
 FROM channel_performance
