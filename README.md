@@ -8,7 +8,7 @@ This repository contains SQL solutions for the BI case study analyzing lead conv
 ## Dataset
 - **Database:** enpal_sql_challenge
 - **Total number of lead:** 57906
-- **Total number of lead with PV System Sold:** 5480 (10.56%)
+- **Total number of lead with PV System Sold:** 5480 (9.46%)
 - **Date Range:** January 16 - October 28, 2024
 
 ## Assumption on Data Quality :
